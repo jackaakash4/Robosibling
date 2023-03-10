@@ -4,6 +4,7 @@ import Cardlist from '../Components/Cardlist'
 import Searchbox from '../Components/Searchbox'
 import Scroll from '../Components/Scroll'
 import './App.css'
+import ErrorBoundry from '../Components/ErrorBoundry'
 
 
 
@@ -40,7 +41,9 @@ class App extends Component{
                     <h1 className='f2'>RoboSibling</h1>
                     <Searchbox searchChange = {this.onSearchChange}/>
                     <Scroll>
-                        <Cardlist robots={filterRobot}/>
+                        <ErrorBoundry>
+                            <Cardlist robots={filterRobot}/>
+                        </ErrorBoundry>
                     </Scroll>
                 </div>
             );
