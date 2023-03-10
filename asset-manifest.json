@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Robosibling/static/css/main.1f401278.css",
+    "main.js": "/Robosibling/static/js/main.2df71fdb.js",
+    "static/js/787.ab12092d.chunk.js": "/Robosibling/static/js/787.ab12092d.chunk.js",
+    "static/media/SEGA.woff": "/Robosibling/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/Robosibling/index.html",
+    "main.1f401278.css.map": "/Robosibling/static/css/main.1f401278.css.map",
+    "main.2df71fdb.js.map": "/Robosibling/static/js/main.2df71fdb.js.map",
+    "787.ab12092d.chunk.js.map": "/Robosibling/static/js/787.ab12092d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f401278.css",
+    "static/js/main.2df71fdb.js"
+  ]
+}
